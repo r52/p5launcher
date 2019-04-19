@@ -132,9 +132,9 @@ $(function () {
             parse_msg(evt.data);
         };
         websocket.onerror = function (evt) {
-            console.log('ERROR: ' + evt.data);
+            console.warn('p5launcher (ERROR): ' + evt.data);
         };
     } catch (exception) {
-        console.log('Exception: ' + exception);
+        console.warn('p5launcher (Exception): ' + exception);
     }
 });
