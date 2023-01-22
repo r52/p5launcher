@@ -1,9 +1,10 @@
 {
-    "name": "p5launcher",
-    "width": 900,
-    "height": 650,
-    "startFile": "index.html",
-    "transparentBg": true,
-    "clickable": true,
-    "dataserver": true
+  "name": "p5launcher",
+  "width": 900,
+  "height": 650,
+  "startFile": "index.html",
+  "transparentBg": true,
+  "clickable": true,
+  "dataserver": true,
+  "remoteAccess": true
 }
